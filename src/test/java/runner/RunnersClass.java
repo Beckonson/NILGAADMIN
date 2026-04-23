@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features/",
-        //features = "src/test/resources/features/marriage.feature",
+        //features = "src/test/resources/features/",
+        features = "src/test/resources/features/Validlogin.feature",
         glue = "steps",
         //dryRun = true,
         dryRun = false,
